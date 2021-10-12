@@ -1,0 +1,82 @@
+body {
+    font: 18px normal arial;
+    background-color: rgb(116, 233, 229);
+}
+
+header {
+    width: 650px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.espaço {
+    margin-top: 30px;
+}
+
+main {
+    background-color: white;
+    width: 650px;
+    margin: auto;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    height: 280px;
+}
+
+select {
+    margin-top: 30px;
+    width: 150px;
+}
+
+.botao1 {
+    margin-left: 15px;
+    background-color: rgb(21, 125, 243);
+    border: 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+}
+
+.botao1:hover {
+    transition-duration: 0.5s;
+    opacity: 0.6;
+}
+
+.botao2 {
+    background-color: red;
+    border: 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+}
+
+.botao2:hover {
+    transition-duration: 0.5s;
+    opacity: 0.6;
+}
+
+.left {
+    float: left;
+}
+
+#res {
+    margin: 20px 30px 20px 70px;
+    width: 400px;
+    height: 150px;
+    float: left;
+}
+
+#res > p {
+    text-indent: 50px;
+}
+
+
+

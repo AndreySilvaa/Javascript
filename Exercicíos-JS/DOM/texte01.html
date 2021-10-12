@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body>
+    <h1 name="title" >Olá a todos</h1>
+    <p id="top">Vamos praticar o DOM</p>
+    <p>Conhecimento é poder</p>
+    <div class="campo"><label for="">Nome:</label>
+    <div id="nome"> Andrey</div>
+    <script>
+        var s = window.document.getElementsByTagName('p')[1]
+        s.style.color = 'lime'
+        s.style.backgroundColor = 'black'
+        s.style.width = '150px'
+
+        var t = window.document.getElementById('top')
+        t.style.backgroundColor = 'lime'
+        t.style.width = '153px'
+
+        var p = window.document.getElementsByName('title')[0]
+        p.innerText = (p.innerText + ', é um prazer conhece-los')
+        
+        var n = window.document.querySelector('div#nome')
+        n.innerText = (n.innerText + t.innerText)
+    </script>
+</body>
+</html>

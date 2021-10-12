@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino2</title>
+</head>
+<body>
+    <h1>Brasileiro ou Estrangeiro</h1>
+    Em qual país você mora? <input type="text" name="paístxt" id="paístxt">
+    <input type="button" value="Verificar" onclick="verifique()">
+    <div id="res"></div>
+    <script>
+        function verifique() {
+            let paístxt = document.getElementById('paístxt')
+            let país = String(paístxt.value)
+            let res = document.getElementById('res')
+            res.innerHTML = ''
+            res.innerHTML += `<p> Vivendo em ${país}</p>`
+
+            if(país == 'Brasil') {
+                res.innerHTML += `<p> Você é Brasileiro </p>`
+            } else {
+                res.innerHTML += `<p> Você é estrangeiro </p>`
+            }
+        }
+    </script>
+</body>
+</html>

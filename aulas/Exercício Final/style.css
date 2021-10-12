@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(67, 127, 238);
+    font: 18px normal arial;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+header {
+    color: ghostwhite;
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+    margin-left: 430px;
+    background-color: white;
+    width: 500px;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+select {
+    width: 150px;
+}
+
+div {
+    margin-top: 10px;
+}
+
+.botao {
+    margin-top: 5px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}

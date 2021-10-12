@@ -1,0 +1,181 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(44, 118, 255);
+}
+
+header > h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(236, 236, 245);
+    margin: 0;
+    padding: 15px;
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    left: 147px;
+    background-color: lavender;
+    border-radius: 35px;
+    top: 113px;
+    box-shadow: 0px 3px 3px 0px black;
+    border: 2px solid ghostwhite;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border-right: 3px solid ghostwhite;
+}
+
+nav > a:last-child {
+    border-right: none;
+}
+
+section {
+    position: absolute;
+    top: 165px;
+    left: 200px;
+    border: 2px solid black;
+    padding: 22px;
+}
+
+.dados {
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 290px;
+    height: 2px;
+}
+
+input#add, input#remo {
+    width: 60px;
+}
+
+#add:focus {
+    background-color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(94, 94, 94);
+}
+
+#botaoadd {
+    background-image: linear-gradient(to bottom, #E0E0E0, #F9F9F9 50%);
+    border: 1px solid #CCCCCE;
+    margin-left: 10px;
+    padding: 5px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, .3);
+    border-radius: 3px;
+    color: black;
+    text-shadow:1px 1px 0 #FFF;
+}
+
+#botaoadd:hover {
+    opacity: 0.6;
+    color: black;
+}
+
+#botaoremo {
+    background-image: linear-gradient(to bottom, #E0E0E0, #F9F9F9 50%);
+    border: 1px solid #CCCCCE;
+    margin-left: 10px;
+    padding: 5px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, .3);
+    border-radius: 3px;
+    color: black;
+    text-shadow:1px 1px 0 #FFF;
+}
+
+#botaoremo:hover {
+    opacity: 0.6;
+}
+
+#seltab {
+    margin-top: 30px;
+    width: 200px;
+    position: relative;
+    left: 50px;
+}
+
+#limpar {
+    position: relative;
+    top: 20px;
+    left: 49px;
+}
+
+article {
+    position: absolute;
+    top: 560px;
+    left: 340px;
+}
+
+#res {
+    max-width: 600px;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+}
+
+img {
+    max-width: 200px;
+    padding: 20px;
+}
+
+#nomeca {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 80px;
+}
+
+#nomela {
+    position: absolute;
+    display: none;
+    left: 323px;
+}
+
+#nomepi {
+    position: absolute;
+    display: none;
+    top: 244px;
+    left: 97px;
+}
+
+#nomeis {
+    position: absolute;
+    display: none;
+    left: 323px;
+}
+
+footer {
+    background-color: rgb(28, 210, 255);
+    bottom: -343px;
+    position: absolute;
+    color: rgb(27, 27, 27);
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+footer > hr {
+    width: 660px;
+    height: 2px;
+}
+
+footer > a {
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+}
+
+footer > a:hover {
+    color: red;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Hora atual</title>
+    <style>
+        div {
+            font: normal 20px arial;
+        }
+    </style>
+</head>
+<body>
+    <h2>Clique para se atualizar: <input type="button" value="---" onclick="UpDate()"></h2>
+    <div id="res"></div>
+    <script>
+        function UpDate() {
+            var res = document.getElementById('res')
+            var h = new Date()
+            var horario = h.getHours()
+            var d = new Date()
+            var dia = d.getDate()
+            res.innerHTML = `<p>Hoje é dia ${dia} - Horario atual: ${horario} horas </p> `
+        }
+    </script>
+</body>
+</html>

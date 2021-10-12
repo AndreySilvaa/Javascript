@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Item Selector</h1>
+    </header>
+
+    <nav>
+        <a href="#">Canivete (1)</a>
+        <a href="#">Lanterna (2)</a>
+        <a href="#">Pilha (3)</a>
+        <a href="#">Isqueiro (4)</a>
+    </nav>
+
+    <section>
+        <hr>
+        <div class="dados">
+            Adicionar um item: <input type="number" name="" id="add">
+            <input id="botaoadd" type="button" value="Adicionar" onclick="adicionar()">
+        </div>
+        <hr>
+        <div class="dados">
+            Remover um item: <input type="number" name="" id="remo">
+            <input id="botaoremo" type="button" value="Remover" onclick="remover()">
+        </div>
+        <hr>
+        <div>
+            <select name="seltab" id="seltab" size="10px">
+        
+            </select>
+            <input id="limpar" type="button" value="Limpar" onclick="limpar()">
+        </div>
+    </section>
+
+    <article>
+        <div id="fim">
+            <input type="button" value="Finalizar" onclick="fim()">
+        </div>
+    </article>
+
+    <div id="res">
+        <DIV id="nomeca">CANIVETE</DIV>
+        <img id="cani" src="" alt="">
+        <div id="nomela">LANTERNA</div>
+        <img id="lant" src="" alt="">
+        <div id="nomepi">PILHA</div>
+        <img id="pilha" src="" alt="">
+        <div id="nomeis">ISQUEIRO</div>
+        <img id="isque" src="" alt="">
+    </div>
+
+    <div></div>
+
+    <footer>
+        <p style="color: black;">Desenvolvido por Andrey Silva Lima</p> 
+        <hr>
+        <label for="">E-mail: </label> <a href="emailto:andreysl2001@gmail.com">andreysl2001@gmail.com</a>
+        <label style="margin-left: 44px;" for="">Telefone: </label> <a href="tel:75988448451">(75) 98844-8451</a>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

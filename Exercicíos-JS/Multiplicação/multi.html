@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplicação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Calculadora da Multiplicação</h1>
+        <input type="number" id="tn1"> *
+        <input type="number" id="tn2">
+        <input type="button" value="Multiplicar" onclick="multi()">
+        <div id="res">Resultado</div>
+    </main>
+    <script>
+        function multi() {
+            var tn1 = window.document.getElementById('tn1')
+            var tn2 = window.document.getElementById('tn2')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var s = n1 * n2
+            var res = window.document.getElementById('res')
+            res.innerHTML = `A multiplicação entre ${n1} e ${n2} é igual a <strong>${s}</strong>` 
+        }
+    </script>
+</body>
+</html>
